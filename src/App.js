@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 
 import Card from './Components/Card';
-import MyComponent from "./Components/MyComponent";
 
 function App() {
   const data = [
@@ -123,7 +122,7 @@ function App() {
   ];
   return (
     <>
-      <MyComponent name = "abc" address = "123"/>
+      
       <section className="pricing py-5">
         <div className="container">
           <div className="row">
